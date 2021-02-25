@@ -2,7 +2,7 @@
 puts "Enter a phrase you'd like to analyze: "
 text = gets.chomp
 
-# split text into words
+# split input text into words
 words = text.split
 
 # create a hash with default value = 0
@@ -18,4 +18,4 @@ frequencies = frequencies.sort_by { |word, count| count }
 frequencies.reverse!
 
 # convert the value from num to str using .to_s before concatenating
-frequencies.each { |word. count| puts word + " " + count.to_s }
+frequencies.each { |word, count| puts word + " " + count.to_s }
