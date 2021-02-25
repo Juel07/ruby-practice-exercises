@@ -15,3 +15,9 @@ Practice methods & sorting - write a function to order/sort an array of numbers
 
 #### Night at the movies
 Practice hashes & symbols - construct a program that displays, adds, updates, and removes movie ratings.
+
+#### Virtual computer
+Practice objects, classes, inheritance - create an imaginary computer that can store data and manipulate imaginary files for us!
+
+#### Banking
+Practice advanced topics in OOP - write a program that can store, update, and display a bank account balance
