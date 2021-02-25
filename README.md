@@ -11,13 +11,13 @@ Practice arrays & iterators - change a user’s input using iterators, to redact
 Practice hashes - counting up the occurances of each word in the string provided by user.
 
 #### Ordering a library
-Practice methods & sorting - write a function to order/sort an array of numbers
+Practice methods & sorting - write a function to order/sort an array of numbers.
 
 #### Night at the movies
 Practice hashes & symbols - construct a program that displays, adds, updates, and removes movie ratings.
 
 #### Virtual computer
-Practice objects, classes, inheritance - create an imaginary computer that can store data and manipulate imaginary files for us!
+Practice OOP concepts like objects, classes & inheritance (1) - create an imaginary computer that can store data and manipulate imaginary files for us!
 
 #### Banking
-Practice advanced topics in OOP - write a program that can store, update, and display a bank account balance
+Practice advanced topics in OOP (2) - write a program that can store, update, and display a bank account balance.
