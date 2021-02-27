@@ -1,3 +1,4 @@
+# create a class
 class Account
       attr_reader :name, :balance
       def initialize(name, balance=100)
