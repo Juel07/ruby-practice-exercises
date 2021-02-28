@@ -1,12 +1,14 @@
+# create a class
 class Computer
     @@users = {}
 
       def initialize(username, password)
       @username = username
       @password = password
-      @files = {}
+      @files = {} # an empty hash to keep track of our files later
 
-      @@users[username] = password
+    # @@users hash to keep usernames as keys & password as the associated value
+      @@users[username] = password 
       end
 
       def create(filename)
