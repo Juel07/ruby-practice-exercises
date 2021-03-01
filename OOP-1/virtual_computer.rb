@@ -17,10 +17,12 @@ class Computer
       puts "A new file was created"
       end
 
+    # since @@users is a class var, use a class method to grab it
       def Computer.get_users
       return @@users
       end
 end
 
+# create a new instance of Computer; store it in a new variable
 my_computer = Computer.new("Jen", "mstdf")
     
