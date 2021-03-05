@@ -21,3 +21,6 @@ Practice OOP concepts like objects, classes & inheritance (1) - create an imagin
 
 #### Banking
 Practice advanced topics in OOP (2) - write a program that can store, update, and display a bank account balance.
+
+#### Codebar exercise 1: Numbers game
+create a small game to practise maths (addition of 2 numbers) & store scores
