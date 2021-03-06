@@ -36,10 +36,10 @@ end
 # output the score after the loop
 puts "Rights #{correct} & Wrongs #{wrong} & Score #{score}%"
 
-# get the number of seconds that it takes to run the game
+# calculate the number of seconds that it takes to run the game
 duration = Time.now - start
 
 puts "Total time taken is #{duration} seconds"
 
-# calculate the average time it take to respond to each problem
+# calculate the average time it takes to respond to each problem
 puts "You spent #{duration/turns} seconds per problem"
