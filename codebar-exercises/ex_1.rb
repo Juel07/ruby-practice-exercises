@@ -10,27 +10,27 @@ start = Time.now
 
 # game is repeated 5 times before it ends
 while turns < 3
-    turns += 1
+  turns += 1
 
-    # generate two random numbers limited between 1 and 10
-    x = Random.rand(1..10)
-    y = Random.rand(1..10)
+  # generate two random numbers limited between 1 and 10
+  x = Random.rand(1..10)
+  y = Random.rand(1..10)
 
-    puts "#{x} + #{y} = "
+  puts "#{x} + #{y} = "
 
-    # get the user's answer
-    answer = gets.to_i
+  # get the user's answer
+  answer = gets.to_i
 
-    if (answer === x + y)
-        puts "Right!"
-        correct += 1
-    else
-        puts "Wrong!"
-        wrong += 1
-    end
+  if answer === x + y
+    puts 'Right!'
+    correct += 1
+  else
+    puts 'Wrong!'
+    wrong += 1
+  end
 
-    # calculate the score in %
-    score = 100 * correct/turns
+  # calculate the score in %
+  score = 100 * correct / turns
 end
 
 # output the score after the loop
@@ -42,4 +42,4 @@ duration = Time.now - start
 puts "Total time taken is #{duration} seconds"
 
 # calculate the average time it takes to respond to each problem
-puts "You spent #{duration/turns} seconds per problem"
+puts "You spent #{duration / turns} seconds per problem"
