@@ -1,4 +1,4 @@
-# Number game
+## Number game
 
 # declare variables to store the number of attempts, correct & wrong answers
 turns = 0
