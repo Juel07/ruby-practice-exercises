@@ -21,7 +21,7 @@ while turns < 3
   # get the user's answer
   answer = gets.to_i
 
-  if answer === x + y
+  if answer == x + y
     puts 'Right!'
     correct += 1
   else
